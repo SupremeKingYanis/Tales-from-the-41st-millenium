@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class MoveUnit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    List<Vector3> nodelist = new List<Vector3>();
+    void NodeCreator(){
         
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    }
+    bool CheckForCollision(GameObject object){
+
     }
 }
